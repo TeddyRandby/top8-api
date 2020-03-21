@@ -27,7 +27,7 @@ A string, corresponding to the format. Must be a member of the enumeration:
 A String representing the card name. Apostrophes, spaces, and capitalization don't matter. (extra spaces will).
 
 * DeAtH's ShADow      -> this will work just fine.
-* death's                  shadow   -> this will not work.
+* death's<pre>    </pre>shadow   -> this will not work.
 
 ### GetDecksByArchetype
 ###### Arguments
