@@ -1,9 +1,9 @@
 # top8-api
 API for MTGTOP8 data.
 
-######The data scraping (as of right now) has to be initiated manually by me. This means the data may go stale if I forget to updated it
+###### The data scraping (as of right now) has to be initiated manually by me. This means the data may go stale if I forget to updated it
 
-######I do plan on automating it soon
+###### I do plan on automating it soon
 
 This is a graphQL api, so all requests should go to this endpoint:
 
