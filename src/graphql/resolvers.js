@@ -37,7 +37,8 @@ const resolverFunctions = {
         .ref("/decks")
         .orderByChild(
           `/cards/${args.cardName
-            .replace(/ s /g, "s-")
+            .replace(/'/g, "")
+            .replace(/,/g, "")
             .replace(/ /g, "-")
             .toLowerCase()}`
         )
@@ -65,6 +66,7 @@ const resolverFunctions = {
                 deck.cards[
                   currentValue
                     .replace(/'/g, "")
+                    .replace(/,/g, "")
                     .replace(/ /g, "-")
                     .toLowerCase()
                 ]
@@ -77,6 +79,7 @@ const resolverFunctions = {
                 deck.cards[
                   currentValue
                     .replace(/'/g, "")
+                    .replace(/,/g, "")
                     .replace(/ /g, "-")
                     .toLowerCase()
                 ]
